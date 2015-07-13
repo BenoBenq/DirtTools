@@ -1,0 +1,21 @@
+[
+{
+"modid": "DirtTools",
+"name": "Dirt Tools",
+"description": "It only adds some Tools and Armors!! :D",
+"version": "1.0",
+"mcversion": "1.7.10",
+"url": "",
+"updateUrl": "",
+"authorList": [
+"benobenq"
+],
+"credits": "",
+"logoFile": "",
+"screenshots": [
+],
+"parent":"",
+"dependencies": [
+]
+}
+]
