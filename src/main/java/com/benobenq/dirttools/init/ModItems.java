@@ -10,8 +10,10 @@ import cpw.mods.fml.common.registry.GameRegistry;
 public class ModItems {
     public static final ItemDT dirtChestplate = new ItemDirtChestplate();
 
+
+
     public static void init()
     {
-        GameRegistry.registerItem(dirtChestplate, Names.Items.DIRT_CHESTPLATE);
+        GameRegistry.registerItem(dirtChestplate,Names.Items.DIRT_CHESTPLATE);
     }
 }

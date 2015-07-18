@@ -1,6 +1,7 @@
 package com.benobenq.dirttools;
 
 import com.benobenq.dirttools.handler.ConfigurationHandler;
+import com.benobenq.dirttools.init.ModBlocks;
 import com.benobenq.dirttools.init.ModItems;
 import com.benobenq.dirttools.proxy.IProxy;
 import com.benobenq.dirttools.reference.Reference;
@@ -28,6 +29,7 @@ public class DirtTools {
         ConfigurationHandler.init(event.getSuggestedConfigurationFile());
         FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
         ModItems.init();
+        ModBlocks.init();
 
         LogHelper.info("Pre Initialization Complete!");
     }
