@@ -7,11 +7,16 @@ import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.client.renderer.texture.IIconRegister;
+import net.minecraft.util.AxisAlignedBB;
+import net.minecraft.world.World;
 
 public class BlockDT extends Block {
+    protected boolean isFullSize = true;
+    protected boolean isOpaque = true;
     public BlockDT(Material material) {
         super(material);
         this.setCreativeTab(CreativeTabDT.DT_TAB);
+
     }
 
     public BlockDT() {

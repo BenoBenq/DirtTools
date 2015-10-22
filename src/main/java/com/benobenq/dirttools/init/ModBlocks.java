@@ -16,5 +16,6 @@ public class ModBlocks {
     public static void init()
     {
         GameRegistry.registerBlock(dirtSquare, Names.Blocks.DIRT_SQUARE);
+        //dirtSquare = (BlockDirtSquare)(new BlockDirtSquare().setUnlocalizedName("dirtSquare")
     }
 }
